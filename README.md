@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 社交媒体应用 - 功能概览
 
-## Getting Started
+## 1. 导航与页面切换
+左侧菜单提供主要功能入口
+- **首页**：默认展示页面
+- **探索**：可能用于发现新内容
+- **通知**：查看系统消息
+- **消息**：私信/聊天功能
+- **个人**：个人资料和设置
 
-First, run the development server:
+## 2. 内容展示
+### 推文列表
+支持两种视图模式
+- **推荐**：系统智能推荐的内容
+- **关注**：仅显示已关注用户的推文
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+每条推文包含：
+- 用户头像
+- 用户名
+- 推文内容
+- 时间戳
+- 互动数据（点赞、评论、转发）
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 3. 内容创建
+### 发推功能
+- 可输入文字
+- 可能支持添加图片（待确认）
+- 实时发布到推文列表
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 4. 信息发现
+### 右侧边栏功能
+- **搜索**：快速检索内容
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### 热门话题追踪
+- 技术趋势
+- 全球热点
+- 娱乐新闻
 
-## Learn More
+#### 推荐关注
+- 智能推荐用户
+- 快速关注功能
 
-To learn more about Next.js, take a look at the following resources:
+## 5. 用户交互
+- 关注/取消关注用户
+- 点赞推文
+- 转发推文
+- 查看详细推文
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 6. 系统辅助功能
+- 深色模式
+- 响应式设计
+- 无障碍支持
+- 隐私和使用条款入口
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 7. 未来可能的功能
+- 消息通知
+- 个人资料编辑
+- 推文图片上传
+- 评论功能
+- 私信系统
