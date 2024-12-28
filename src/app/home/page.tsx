@@ -300,7 +300,7 @@ export default function HomePage() {
 
         {/* What's Happening 区域 */}
         <div className="bg-gray-900 rounded-lg mb-4 p-4">
-          <h2 className="text-xl font-bold mb-4">What's Happening</h2>
+          <h2 className="text-xl font-bold mb-4">What&apos;s Happening</h2>
           <div className="space-y-3">
             <div className="border-b border-gray-800 pb-3">
               <p className="text-gray-500 text-sm">技术 · trending</p>
